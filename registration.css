@@ -1,0 +1,18 @@
+/* Specific styles for the registration page */
+.container h1 {
+    margin-top: 0;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
