@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Website - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Yoga Name</div>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="login.html" class="active">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Login to Your Account</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="register-link">Don't have an account? <a href="registration.html">Register here</a></p>
+        </form>
+        <div id="loginMessage" class="message"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Yoga Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
